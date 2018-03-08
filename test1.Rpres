@@ -1,0 +1,44 @@
+Week 4 Project 
+========================================================
+author: critch
+date: March 9, 2018
+autosize: true
+
+Shiny Application and Reproducible Pitch
+
+Overview
+========================================================
+
+This presentation contains the documentation for the prediction of the type of Iris species.
+
+The predictive model is built using Linear Discriminant Analysis, using the following to predict species:
+
+  * Sepal Length
+  * Sepal Width
+  * Petal Length
+  * Petal Width
+
+Iris Data
+========================================================
+
+```{r, echo=FALSE}
+head(iris)
+ 
+```
+
+Description
+========================================================
+
+Use the slider inputs for each flower measurement and the app will predict what type of Iris flower it will be based on the chosen measurements
+
+There is a plotly boxplot below the prediction by species and measurement. Here you can hover over each boxplot to get an idea of the range of length and width by centimeters for each measurement, to inform of which measurements will predict which.
+
+Links to App and code
+========================================================
+
+Link to app: [https://critch1129.shinyapps.io/wk4_dev_prod/]
+
+Link to the ui and server code: [https://github.com/critch1129/week4-shiny-app-pres]
+
+Thank you and enjoy!
+========================================================
